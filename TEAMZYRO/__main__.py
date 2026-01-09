@@ -6,11 +6,7 @@ from TEAMZYRO.modules import ALL_MODULES
 
 
 async def post_init(application):
-    # Start Pyrogram safely inside PTB loop
     await ZYRO.start()
-
-    # Send start message after bot fully starts
-    await send_start_message()
 
 
 def main() -> None:
